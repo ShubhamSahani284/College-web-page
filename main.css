@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.naviga {
+	height: 38px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/texture.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.naviga img{
+			height:32px;
+			width:32px;
+			margin-left:32px;
+			margin-top: 2px;
+			position: relative;
+}
+.nav-links{
+	flex: 5;
+	text-align: right;
+      margin-top: -40px;
+}
+.nav-links ul li{
+	list-style:none;
+	display: inline-block;
+	padding: 10px 12px;
+	position: relative;
+	color: #fff;
+}
+.nav-links ul li a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 13px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+/*------course------*/
+.course {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.about h1{
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	background-color: rgb(220, 220,217);
+
+}
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	text-align: left;
+}
+.row{
+	margin-top:5%;
+	display:flex;
+	justify-content: space-between;
+	background-color: rgb(220, 220, 217);
+	padding-top:12px;
+}
+.course-col{
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
+h3{
+		text-align: center;
+		font-weight: 600;
+		margin:10px 0;
+}
+.course-col:hover{
+		box-shadow: 0 0 20px 0px rgba(0,0,0,0.2)
+}
+/*------footer------*/
+.footer{
+		width: 100%;
+		text-align: center;
+		padding: -4px;
+
+}
+.footer p{   text-align: center;
+padding:2px;
+}
+
+
+/*------changes can be made👇------*/

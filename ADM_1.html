@@ -1,0 +1,253 @@
+<!---- in_built css---->
+<!doctype html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>East West College of Engineering</title>
+    <link rel="stylesheet" href="ADM_1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"herf="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<section class="naviga"><nav>
+    <img src="images/logo.png">
+    <div class="nav-links" id="nav-Links">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+    </div></nav>
+</section>
+<body>
+<section class="header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+
+            <ul>
+                <li><a href="Education.html">HOME</a></li>
+                <li><a href="ABOUT.html">ABOUT</a></li>
+                <li><a href="PLACEMENT.html">PLACEMENT</a></li>
+                <li><a href="ACADAMICS.html">ACADAMICS</a></li>
+                <li><a href="GALLERY.html">GALLERY</a></li>
+                <li><a href="CONTACT.php">CONTACT</a></li>
+                <!-----<li><a href="LOGIN.html">LOGIN</a></li>---->
+
+                <li class="sidevar" >
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style=" color: black;">&times;</a>
+                        <div class="course-col" style="background-color:white;"><a href="#" style=" color: black;">Announcement</a></div>
+                        <div class="course-col" style="background-color:white;"><a href="LOGIN.html" style=" color: black;">Teachers</a></div>
+                        <div class="course-col" style="background-color:white;"><a href="ADM_1.html" style=" color: black;">Admissions</a></div>
+                        <div class="course-col" style="background-color:white;"><a href="LOGIN.html" style=" color: black;">student</a></div>
+                        <div class="course-col" style="background-color:white;"><a href="easyreg.html" style=" color: black;">EASY REGISTRATION</a></div>
+                        <div class="course-col" style="background-color:white;"><a href="LOGIN.html" style=" color: black;">Feed back</a></div>
+                        <div class="course-col" style="background-color:white;"><a href="CONTACT.php" style=" color: black;">Contact</a></div>
+                    </div>
+                    <div id="main">
+                        <span style="font-size:20px; position: fixed; right: 12px; top: 4px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+</section>
+<!--------edits can be done in b/w   👇 ------->
+<section>
+    <div>
+        <p style=" text-align: right;
+                  padding-right: 88px;"> Application no: &#160 <th>1998</th>
+        </p>
+        <p style=" text-align: center;
+                   padding:0px;">VIJAYANAGAR EDUCATIONAL TRUST(R)</p>
+        <h4 style=" text-align: center;
+                    font-size:28px;">ETAST WEST COLLEGE OF ENGINEERING</h4>
+        <P style=" text-align: center;
+                    padding:0px;">(Affilited to VTU Approve by AICTE, New Delhi & Recognized by GOVT. of Karnataka) </P>
+        <p style=" text-align: center;
+                    padding:0px;">CA Site, 13, Major Akshay Girish Kumar Rd, Sector A, Yelahanka New Town, Bengaluru, Karnataka 560064</p>
+        <h5 style=" text-align: center;
+                    font-size:22px;
+                    padding-top: 8px;"> Application form for Admission for UG(BE)</h5>
+        <br>
+        <br>
+
+        <div class="row">
+                <div class="course-col" style=" "><h>Date_of_Admission:</h> &#160<input type="date"  name="date"    id="Date"    placeholder="Date"  required></div>
+                <div class="course-col"><h>Student Mob No:</h> &#160<input type="phone"  name="phone"    id="phone"    placeholder="Phone"  required maxlength="10"></div>
+                <div class="course-col"><h>Email id:</h> &#160<input type="email"  name="email"    id="email"    placeholder="email"  required></div>
+        </div>
+        <h>Student photo: <input name="file1" type="file" accept="application/pdf"> </h><br>
+        <h>Student signature: <input name="file1" type="file" accept="application/pdf"> </h><br>
+        <h>10th maskcard: <input name="file1" type="file" accept="application/pdf"> </h><br>
+        <h>12th/Diploma studentmark card: <input name="file1" type="file" accept="application/pdf"> </h><br>
+        <h>Signature of the Student: <input name="file1" type="file" accept="application/pdf"> </h><br>
+        <h>Student Addhacard: <input name="file1" type="file" accept="application/pdf"> </h><br><br>
+
+
+        <label for="quota">Quota :</label>
+        <select name="quota" id="quota" form="carform">
+            <option value="CET">CET</option>
+            <option value="COMAD-K">COMED-K</option>
+            <option value="MQ">MQ</option>
+            <option value="CMAT">CAMT</option>
+            <option value="PH.D">PH.D</option>
+        </select>
+        <div class="course-col"><h>CET/GATE/COMED-K/CMAT/PH.D REG.NO:</h> &#160<input type="number"  name="reg"    id="number"    placeholder="number"  required></div>
+        <div class="course-col"><h>CET/GATE/COMED-K/CMAT RANK No:</h> &#160<input type="number"  name="rank"    id="number"    placeholder="number"  required></div>
+        <div class="course-col"><h>Counseling Date:</h> &#160<input type="date"  name="counselling"    id="Date"    placeholder="Date"  required></div>
+        <div class="course-col"><h>Allotment No:</h> &#160<input type="no"  name="allotment"    id="no"    placeholder="no"  required></div>
+        <div class="course-col"><h>Course & Batch applied for:</h> &#160<input type="text"  name="course"    id="text"    placeholder="course"  required></div>
+        <div class="course-col"><h>Admission through:</h> &#160<input type="text"  name="through"    id="text"    placeholder="Admission through"  required></div>
+        <div class="course-col"><h>Name of Applicant:</h> &#160<input type="text"  name="applicant"    id="text"    placeholder="Name of Applicant"  required></div>
+        <div class="course-col"><h>Date of Birth:</h> &#160<input type="date"  name="birth"    id="Date"    placeholder="Date"  required></div>
+        <div class="course-col"><h>Blood group:</h> &#160<input type="text"  name="blood"    id="text"    placeholder="Blood group"  required></div>
+        <div class="course-col"><h>Nationality:</h> &#160<input type="text"  name="nationality"    id="text"    placeholder="nationality"  required></div>
+        <div class="course-col"><h>Religion:</h> &#160<input type="text"  name="religion"    id="text"    placeholder="cast"  required></div>
+
+        <label for="category">Category: please select the appropriate box :&#160</label>
+        <select name="quota" id="quota" form="carform">
+            <option value="SELECT">SELECT</option>
+            <option value="GM">GM</option>
+            <option value="GMK">GMK</option>
+            <option value="1G">1G</option>
+            <option value="1K">1K</option>
+            <option value="1R">1R</option>
+            <option value="2AG">2AG</option>
+            <option value="2AK">2AK</option>
+            <option value="2BG">2BG</option>
+            <option value="2BK">2BK</option>
+            <option value="2BR">2BR</option>
+            <option value="3AG">3AG</option>
+            <option value="3AK">3AK</option>
+            <option value="3BG">3BG</option>
+            <option value="3BK">3BK</option>
+            <option value="3BR">3BR</option>
+            <option value="SCG">SCG</option>
+            <option value="SCK">SCK</option>
+            <option value="SCR">SCR</option>
+            <option value="STG">STG</option>
+            <option value="STK">STK</option>
+            <option value="STR">STR</option>
+        </select>
+
+        <div class="course-col"><h>Citizenship:</h> &#160<input type="text"  name="citizen"    id="text"    placeholder="citizenship"  required></div>
+        <div class="course-col"><h>family-size:</h> &#160<input type="number" name="size"    id="number"    placeholder="familysize"  required></div>
+        <div class="course-col"><h>Mother tounge:</h> &#160<input type="text"  name="tounge"    id="text"    placeholder="tounge"  required></div>
+        <div class="course-col"><h>place of birth:</h> &#160<input type="text"  name="placeofbirth"    id="text"    placeholder="birth"  required></div>
+            <div class="row">
+        <h>Physiclay challange :</h>
+        <input type="checkbox" id="handicapped" name="handicapped" value="handicapped">
+                <label for="handicapped"> handicapped</label><br>
+
+        <input type="checkbox" id="physically" name="physically" value="physically">
+                <label for="physically">physically</label><br>
+
+        <input type="checkbox" id="visually" name="visually" value="visually">
+                <label for="visually"> visually</label><br>
+
+        </div>
+<div class="row">
+        <div>
+            <h>Residential Address...</h>
+            <p>Address for communication :</p>
+            <form action="#" id="usrform">
+            </form>
+            <textarea name="comment" form="usrform">Enter text here...</textarea>
+        </div>
+        <div>
+            <p>Permanent Address :</p>
+            <form action="#" id="usrform">
+            </form>
+             <textarea name="comment" form="usrform">Enter text here...</textarea>
+    </div></div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <a href="#"><button type="submit" style="margin-left:60px; padding:20px; "> current</button></a>
+
+        <a href="ADM_2.html"><button type="submit" style="margin-right:140px; padding:20px;">NEXT >></button></a>
+    </div>
+</section>
+
+
+
+
+
+<!--------edits can be done in b/w     👆 ------->
+<!------About college------->
+<section class="about">
+    <h1>QUICK ACCESS</h1>
+    <div class="row">
+        <div class="about-col">
+            <h2> Cources We offers<h2/>
+                <p>Computer Science & Engineering<br>
+                    Electronics & Communication Engineering<br>
+                    Aeronautical Engineering<br>
+                    Agriculture Engineering<br>
+                    Mechanical Engineering<br>
+                    Basic Science & Humanities  </p>
+        </div>
+        <div class="about-col">
+            <h2>Pages<h2/>
+                <p>Principal's Desk<br>
+                    About Us<br>
+                    Portfolio<br>
+                    Admissions<br>
+                    Contact Us  </p>
+        </div>
+
+        <div class="about-col">
+            <h2>  East West College of Engineering<h2/>
+                <p>CA Site No. 13, 13th A Main Road,<br>
+                    Sector A, Major Akshay Kumar Road,<br>
+                    Yelahanka New Town, Bengaluru-560064.<br>
+                    ☎️080 28566115/116<br>
+                    📞+91 9844671611<br>
+                    ✉️principal.ewce@gmail.com </br></p>
+        </div>
+        <div class="about-col">
+            <h3><b>Links</b><h3/>
+                <p1>
+                    <img src="images/play.png"><br>
+                    <img src="images/apple.jpeg" height="50" width="150"><br>
+                    <img src="images/web.png" height="50" width="150">
+                </p1>
+        </div>
+    </div>
+</section>
+
+
+
+<!------footer------->
+<section class="footer">
+    <div class="icons">
+        <p>© 2022 EWCE 2022 All right reserved . | East West Group of Institutions, Bengaluru.. Shubham </p>
+    </div>
+</section>
+<!--------javaScript for toggle menu------->
+<script>
+    const navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+
+    /* Set the width of the sidebar to 250px (show it) */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginRight = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginRight= "0";
+        document.body.style.backgroundColor = "white";
+    }
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.naviga {
+	height: 38px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/texture.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.naviga img{
+			height:32px;
+			width:32px;
+			margin-left:32px;
+			margin-top: 2px;
+			position: relative;
+}
+.nav-links{
+	flex: 5;
+	text-align: right;
+      margin-top: -40px;
+}
+.nav-links ul li{
+	list-style:none;
+	display: inline-block;
+	padding: 10px 12px;
+	position: relative;
+	color: #fff000;
+}
+.nav-links ul li a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 13px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+/*------Quick access------*/
+.course { 
+				width: 80%;
+				margin: auto;
+				text-align: center;
+				padding-top: 100px;
+
+}
+.about{	background-color: rgb(241, 240, 240);
+}
+h1{ 
+				font-size: 36px;
+				font-weight: 600;
+				text-align: center;
+}
+p{
+				color: #777;
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 22px;
+				padding: 10px;
+				text-align: left;
+}
+.row{
+				masrgin-top:5%;
+				display:flex;
+				justify-content: space-between;
+}
+.course-col{
+				flex-basis: 31%;
+				background: #882828;
+				border-radius: 10px;
+				margin-bottom: 5%;
+				padding: 20px 12px;
+				box-sizing: border-box;
+}
+h3{
+				text-align: center;
+				font-weight: 600;
+				font-size: 25px;
+		
+}
+.nill{
+	padding: 12px;
+}
+.course-col:hover{	
+				box-shadow: 1 0 20px 0px rgba(0,0,0,0.2)
+}
+
+/*------footer------*/
+.footer{
+				width: 100%;
+				text-align: center;
+				padding: -10px;
+}
+.footer p{   text-align: center;
+}
+/*------changes can be made------*/
+.emp{ padding:20px;
+}
+
+
+
+/*------founder------*/
+.row{	width:100%
+                margin:auto;
+                padding-top:50px 0;
+            	background: #ECECEC;
+}
+
+.about_f{
+				width:100%;
+            	   		hight: 40px;
+ 				margin: auto;
+				text-align: center;
+				padding-top: 60px;
+            			background: #F3CA78;
+}
+.about_f img{		
+		                height: 250px;
+				margin-left: 40px;
+				margin-right: 100px;
+				border-radius: 100%;
+                                margin-top: 50px;
+				padding-bottom: 20px;
+}
+.about_f1 P{		
+		                height: 260px;
+				margin-top: 20px;
+margin-left: 10px;
+				margin-right: 100px;
+				border-radius: 100%;
+				padding:30px;
+}
+
+/*------Igniting Innovation to execel------*/
+.about_I{
+				width:100%;
+            	   		hight: 10px;
+ 				margin: auto;
+				text-align: center;
+				padding-top: 35px;
+            			background: #F1F3B4;
+}
+.about_I h4{		
+				font-size: 32px;
+				text-align: center;
+}
+.about_I img{				 height: 200px;
+						width:200px;
+    						padding:30px;
+}
+/*------pad------*/
+.pad{            padding:20px;
+			padding-right:60px;
+                width:97%
+                
+}
+.about_c{
+				width:100%;
+            	   		hight: 40px;
+ 				margin: auto;
+				text-align: center;
+				padding-top: 60px;
+            			background: #fff3f3;
+}
+.about_c img{		
+		                height: 250px;
+				margin-left: 40px;
+				margin-right: 100px;
+				border-radius: 100%;
+                                margin-top: 50px;
+				padding-bottom: 20px;
+}
+.about_c P{		
+		                height: 260px;
+				margin-left: 10px;
+				margin-right: 100px;
+				border-radius: 100%;
+				padding:30px;
+}
+
+/*------pri------*/
+.pri{            padding:20px;
+			padding-right:60px;
+ width:97%
+}
+.about_p{
+				width:100%;
+            	   		hight: 20px;
+ 				margin: auto;
+				text-align: center;
+				padding-top: 60px;
+            			background: #C3D0CF;
+}
+.about_p img{		
+		                height: 250px;
+				margin-left: 40px;
+				margin-right: 100px;
+				border-radius: 100%;
+                                margin-top: 50px;
+				padding-bottom: 20px;
+}
+.about_p P{		
+		                height: 260px;
+				margin-left: 10px;
+				margin-right: 100px;
+				border-radius: 100%;
+				padding:30px;
+}
+
+
+/*------aboutal-cource------*/
+
+.row1{		padding:40px;
+			padding-right:60px;
+}.about_e{
+				width:100%;
+            	   		hight: 0px;
+ 				margin: auto;
+				text-align: left;
+				padding: 10px;
+	 	background: #ACDAEC;
+}
+.about_e1{
+				width:100%;
+            	   		hight: 0px;
+ 				margin: auto;
+				text-align: left;
+				padding: 10px;
+            			background: #B4F3EF;
+}
+
+.about_e h5,h6{		
+				font-size: 30px;
+				text-align: center;
+				padding-top: 30px;
+}
+.about_e p1{	
+				height: 250px;
+				margin: 90%;
+				margin-left: 30px;
+				margin-right: 100px;
+				border-radius: 100%;
+				padding: 80px;
+}
+.about_e p2{		height: 250px;
+				margin-left: 30px;
+				margin-right: 80px;
+				border-radius: 100%;
+				padding: 40px;
+}
+
+/*------cources------*/
+
+.cources{ 	width:96.8%;
+			hight:40px;
+			text-aligment:center;
+	padding:30px;
+			padding-top:20px;
+			background: #EBC7F5;
+}
+
+
+/* The sidepanel menu */
+
+body {
+	font-family: "Lato", sans-serif;
+	transition: background-color .5s;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top:10px;
+	right: 0;
+	background-color: #ffffff;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 6px 6px 6px 28px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	display: block;
+	transition: 0.2s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+	color: #4789ef;
+}
+
+.course-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 0;
+	box-sizing: border-box;
+}
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#main {
+	transition: margin-left .5s;
+	padding: 0;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+
+
+
+

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.naviga {
+    height: 38px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/texture.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.naviga img{
+    height:32px;
+    width:32px;
+    margin-left:32px;
+    margin-top: 2px;
+    position: relative;
+}
+.nav-links{
+    flex: 5;
+    text-align: right;
+    margin-top: -40px;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 10px 12px;
+    position: relative;
+    color: #fff;
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+/*------course------*/
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.about{
+    background-color: rgb(241, 240, 240);
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 9px;
+    text-align: left;
+}
+.row{
+    masrgin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+
+h3{
+    text-align: left;
+    font-weight: 600;
+    margin:10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2)
+}
+/*------footer------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: -10px;
+}
+.footer p{   text-align: center;
+}
+
+
+
+
+
+
+
+/* The sidepanel menu */
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:10px;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 28px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    display: block;
+    transition: 0.2s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #4789ef;
+}
+
+.course-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 0;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
